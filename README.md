@@ -43,20 +43,20 @@ After reviewing the characteristics, being single (including widowed) and ahead 
 
 ### Marital Status as a determinant for To Go coupon acceptance
 * Looking at acceptance and declines, most acceptances come from individuals that are single or married with a partner.
-<br>
+
 ![Heatmap of Age and Bar Visit Frequency](./images/togo-marital-hist.png)
-<br>
+
 * Conversely, it's widowed individuals with the highest acceptance rate. The overall rate is high (70%+) for all groups with widowed and single participants taking the lead.
-<br>
+
 ![Heatmap of Age and Bar Visit Frequency](./images/togo-marital-bar.png)
 
 ### Time of Day as a determinant for To Go coupon acceptance
 * Looking at acceptance and declines, what stands out is the decrease in coupons during the middle of the day.
 * Again, the acceptance rates are high, and there is a boost towards the end of the day (presumably toward dinner time).
 * Further investigation could break this boost out to see if there is a lunch and dinner split. Lunch is difficult to measure as the 2PM bucket may include both lunch and dinner. Smaller buckets would give a clearer picture of trends during the day.
-<br>
+
 ![Heatmap of Age and Bar Visit Frequency](./images/togo-time-hist.png)
-<br>
+
 ![Heatmap of Age and Bar Visit Frequency](./images/togo-time-bar.png)
 
 That said, most coupons are accepted, and as long as it isn't rainy you can expect a 70% acceptance rate from most individuals for To Go food.
