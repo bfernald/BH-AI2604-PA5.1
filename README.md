@@ -12,21 +12,22 @@ We will investigate 3 problems
 
 ## 1. Investigate the dataset for missing or problematic data.
 
-* Missing Data
-  * Car column is mostly null (only 108 non-null) and the five unique values.
-  * The purchase-history columns contain the rest of the nulls (Bar, Coffee, Togo, and Restaurants x2)
+Looking at the coupon data, the following issues were found:
+  1. Car column is mostly null (only 108 non-null) and the five unique values.
+	* Car appears to be a text entry field with few entries and no consistency in content. I.e. low data quality
+  2. The purchase-history columns contain the rest of the nulls (Bar, Coffee, Togo, and Restaurants x2)
     * 605 rows total
     * 108-217 rows per column
 
-* Problem Data
-  * Car appears to be a text entry field with few entries and no consistency in content. I.e. low data quality
-
-* Decisions & Actions
+Based on these finds, the following actions will be taken:
   * Drop the column 'car'
   * Drop the null rows from the purchase-history columns (< 5%)
   * Fix column 'passanger' by renaming to correct spelling (passenger with an e)
 
 ## 2. Investigate the Bar Coupons
+
+We have been asked to highlight the differences between customers who did and did not accept the coupons.
+After reviewing the data, acceptance was highest for young participants who were infrequent bar customers.
 
 ![Heatmap of Age and Bar Visit Frequency](./images/bar-heatmap.png)
 
