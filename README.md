@@ -51,15 +51,17 @@ After reviewing the characteristics, being single (including widowed) and ahead 
 ![Heatmap of Age and Bar Visit Frequency](./images/togo-marital-bar.png)
 
 ### Time of Day as a determinant for To Go coupon acceptance
-* Looking at acceptance and declines, what stands out is the decrease in coupons during the middle of the day.
-* Again, the acceptance rates are high, and there is a boost towards the end of the day (presumably toward dinner time).
-* Further investigation could break this boost out to see if there is a lunch and dinner split. Lunch is difficult to measure as the 2PM bucket may include both lunch and dinner. Smaller buckets would give a clearer picture of trends during the day.
+* Looking at acceptance and declines, what stands out is the decrease in offered To Go coupons during the middle of the day.
 
 ![Heatmap of Age and Bar Visit Frequency](./images/togo-time-hist.png)
 
+* On the other hand, acceptance rates of To Go coupons go way up after 2PM.
+
 ![Heatmap of Age and Bar Visit Frequency](./images/togo-time-bar.png)
 
-That said, most coupons are accepted, and as long as it isn't rainy you can expect a 70% acceptance rate from most individuals for To Go food.
+* Further investigation could break this boost out to see if there is a lunch and dinner split. Lunch is difficult to measure as the 2PM bucket may include both lunch and dinner. Smaller buckets would give a clearer picture of trends during the day.
+
+That said, most coupons are accepted, and you can expect a 70% acceptance rate from most individuals for To Go food.
 
 ### Recommendations and Next Steps
 * Rather than looking at who accepts a coupon, let's look at how coupons can shift behavior for participants.
