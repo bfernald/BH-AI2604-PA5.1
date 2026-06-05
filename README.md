@@ -1,15 +1,16 @@
 # BH-AI2604-PA5.1
 PA 5.1 Will the Customer Accept the Coupon?
-[Jupyter Notebook](https://github.com/bfernald/BH-AI2604-PA5.1/blob/main/prompt.ipynb)
+
+[Jupyter Notebook](./prompt.ipynb)
 
 ## Introduction
 
-We had 3 key problems to address
+We will investigate 3 problems
 1. Identify data issues and decide how to address them
 2. Identify the participant characteristics that make Bar Coupon acceptance most likely
 3. Identify the participant characteristics that make To Go Coupon acceptance most likely
 
-## Investigate the dataset for missing or problematic data.
+## 1. Investigate the dataset for missing or problematic data.
 
 * Missing Data
   * Car column is mostly null (only 108 non-null) and the five unique values.
@@ -25,12 +26,14 @@ We had 3 key problems to address
   * Drop the null rows from the purchase-history columns (< 5%)
   * Fix column 'passanger' by renaming to correct spelling (passenger with an e)
 
-## Investigate the Bar Coupons
+## 2. Investigate the Bar Coupons
+
+![Heatmap of Age and Bar Visit Frequency](./images/bar-heatmap.png)
 
 Based on these observations, I hypothesize that age <br>
 and bar regularity are the primary drivers of Bar Coupon acceptance.
 
-## Investigate the To Go Coupons
+## 3. Investigate the To Go Coupons
 
 Using the bar coupon example as motivation, you are to explore one of the other coupon groups and try to determine the characteristics of passengers who accept the coupons. 
 
